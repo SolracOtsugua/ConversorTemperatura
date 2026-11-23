@@ -16,7 +16,6 @@ public class ConversorTemperaturaTests
   }
   [Theory]
   [InlineData(32, 0)]
-  [InlineData(32, 0)]
   [InlineData(212, 100)]
   public void Fahrenheit_ParaCelsius(double entrada, double esperado)
   {
